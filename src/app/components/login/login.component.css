@@ -1,0 +1,49 @@
+h2{
+  margin-top: 56px;
+  margin-bottom: 73px;
+}
+
+input{
+  width: 300x;
+  height: 46px;
+  border-radius:10px;
+}
+
+#div-input-passord{
+  margin-top: 23px;
+}
+
+#div-btn-actions{
+  margin-top: 45px;
+}
+
+button{
+  border-radius: 10px;
+  width: 200px;
+  height: 46px;
+}
+
+#btn-entrar{
+
+  background-color: #8c7069;
+  color: white;
+}
+
+#btn-criar-conta{
+  background-color: #a1aca8;
+  color: white;
+}
+
+hr{
+  background-color: #8c7069;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 2px;
+}
+
+footer{
+  height: 44px;
+  width: 100%;
+  background-color: #8c7069;
+  color: white;
+}

@@ -1,0 +1,29 @@
+input{
+  border-radius: 10px;
+  max-width: 700px;
+  min-width: 240px;
+  height: 40px;
+}
+
+nav{
+  background-color: #8c7069;
+}
+
+#searchbar{
+  background-color: #d8c7bf;
+  border-color: #8c7069;
+}
+
+.offcanvas-header{
+  background-color: #8c7069;
+}
+
+.offcanvas-title{
+  color: white;
+}
+
+.offcanvas-body{
+  background-color: #d8c7bf;
+}
+
+

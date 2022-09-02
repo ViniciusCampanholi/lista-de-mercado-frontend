@@ -1,0 +1,16 @@
+footer{
+  height: 50px;
+  width: 100%;
+  background-color: #8c7069;
+  color: white;
+}
+
+.border-r{
+  border-right: 1px solid ;
+}
+
+.bi{
+  height: 25px;
+  width: 25px;
+}
+

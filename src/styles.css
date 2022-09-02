@@ -3,6 +3,11 @@
   background-color: #d8c7bf;
 }
 
-h1, h2, h3, h4, h5, label{
+h1, h2, h3, h4, h5{
   color: #8c7069;
 }
+
+main{
+  margin-top: 70px;
+}
+

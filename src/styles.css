@@ -12,3 +12,6 @@ main{
   margin-bottom: 70px;
 }
 
+.sombra{
+  box-shadow: 0 3px 8px 0 rgba(165, 20, 20, 0.2), 0 6px 20px 0 rgba(7, 54, 141, 0.19);
+}

@@ -1,0 +1,35 @@
+label{
+  font-size: 20px;
+  color: #8c7069;
+  font-weight: bolder;
+}
+
+input, select{
+  height: 50px;
+  border-radius: 10px;
+}
+
+textarea{
+  border-radius: 10px;
+}
+
+#div-btn-actions{
+  margin-top: 0px;
+}
+
+.btn-grande{
+  border-radius: 10px;
+  width: 200px;
+  height: 46px;
+  background-color: #8c7069;
+  color: white;
+}
+
+.btn-pequeno{
+  border-radius: 10px;
+  height: 50px;
+  width: 55px;
+  background-color: #8c7069;
+  border-color: #8c7069;
+}
+

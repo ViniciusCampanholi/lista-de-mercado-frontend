@@ -1,6 +1,6 @@
 .card-produto {
-  height: 50px;
-  width: 340px;
+  height: 55px;
+  width: 400px;
   background-color: white;
   border-radius: 10px;
   margin-bottom: 8px;
@@ -18,4 +18,10 @@
 
 .nome-produto{
   font-weight: bold;
+}
+
+
+.checkbox{
+  width: 20px;
+  height: 20px;
 }

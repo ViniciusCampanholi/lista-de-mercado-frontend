@@ -5,7 +5,7 @@ import { LoginComponent } from './components/login/login.component';
 import { ItemCompraComponent } from './components/item-compra/item-compra.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: 'itemcompra', pathMatch: 'full'},
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
   {path: 'login', component: LoginComponent},
   {path: 'itemcompra', component: ItemCompraComponent}

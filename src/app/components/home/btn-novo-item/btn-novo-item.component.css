@@ -1,0 +1,19 @@
+.btn-redondo{
+  width: 60px;
+  height:60px;
+  border-radius: 50%;
+}
+
+.btn-suspenso{
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  z-index: 10000000;
+
+}
+
+.bg-color-marron{
+  background-color: #8c7069;
+  border-color: #8c7069;
+  color: white;
+}

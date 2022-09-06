@@ -15,3 +15,20 @@ main{
 .sombra{
   box-shadow: 0 3px 8px 0 rgba(165, 20, 20, 0.2), 0 6px 20px 0 rgba(7, 54, 141, 0.19);
 }
+
+input, button, select, textarea{
+  border-radius: 10px;
+}
+
+.text-marrom{
+  color: #8c7069;
+}
+
+.fs-20{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.fs-18{
+  font-size: 18px;
+}

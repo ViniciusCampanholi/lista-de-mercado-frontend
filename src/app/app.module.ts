@@ -9,7 +9,7 @@ import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
 import { CardProdutoComponent } from './components/card-produto/card-produto.component';
 import { BtnNomeListaComponent } from './components/home/btn-nome-lista/btn-nome-lista.component';
-import { ProdutoComponent } from './components/produto/produto.component';
+import { ItemCompraComponent } from './components/item-compra/item-compra.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,7 @@ import { ProdutoComponent } from './components/produto/produto.component';
     HomeComponent,
     CardProdutoComponent,
     BtnNomeListaComponent,
-    ProdutoComponent,
+    ItemCompraComponent,
   ],
   imports: [
     BrowserModule,

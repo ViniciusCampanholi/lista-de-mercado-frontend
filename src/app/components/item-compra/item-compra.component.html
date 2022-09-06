@@ -1,0 +1,56 @@
+<app-navbar></app-navbar>
+<main>
+<div class="p-4 justify-content-center">
+  <div class="formulario-produto mb-4 col-12">
+    <label for="nomeProduto" class="form-label fs-20 text-marrom">Nome do produto</label>
+    <input type="email" class="form-control sombra" id="nomeProduto" placeholder="Nome do produro">
+  </div>
+  <div class="row mb-4">
+    <label for="selectMarca" class="form-label fs-20 text-marrom">Marca</label>
+    <div class="col-9">
+      <select id="selectMarca" class="form-select sombra ">
+        <option selected>Marca</option>
+        <option value="1">Marca 1</option>
+        <option value="2">Marca 2</option>
+        <option value="3">Marca 3</option>
+      </select>
+    </div>
+    <div class="col-1">
+      <button id="btnAddMarca" type="button" class="btn btn-pequeno bg-color-marron btn-success sombra">
+        <i class="bi bi-plus-lg"></i>
+      </button>
+    </div>
+  </div>
+  <div class="row mb-4">
+    <div class="col-4">
+      <label for="quantidade" class="form-label fs-20 text-marrom">Quantidade</label>
+      <input type="number" class="form-control sombra" id="quantidade">
+    </div>
+    <div class="col-4">
+      <label for="prcoUnidade" class="form-label fs-20 text-marrom">Preço/un</label>
+      <input type="number" class="form-control sombra" id="prcoUnidade">
+    </div>
+    <div class="col-4">
+      <label for="selectUnidade" class="form-label fs-20 text-marrom">Un</label>
+      <select id="selectUnidade" class="form-select sombra">
+        <option selected>Kg</option>
+        <option value="1">Un</option>
+        <option value="2">Pacote</option>
+        <option value="3">Caixa</option>
+      </select>
+    </div>
+  </div>
+  <div class="mb-3 col-12">
+    <label for="texObsevacao" class="form-label fs-20 text-marrom">Observações</label>
+    <textarea class="form-control sombra" id="texObsevacao" rows="3"></textarea>
+  </div>
+</div>
+<div id="div-btn-actions" class="d-grid mx-auto text-center">
+  <div class="col-12">
+    <button type="button" id="btnAddItem" class="btn btn-grande bg-color-marron sombra" (click)="adicionarItem()">Adicionar</button>
+  </div>
+  <div class="col-12 mt-3">
+    <button type="button" id="btnCancelaItem" class="btn btn-grande bg-color-cinza sombra" (click)="cancelarItem()">Cancelar</button>
+  </div>
+</div>
+</main>

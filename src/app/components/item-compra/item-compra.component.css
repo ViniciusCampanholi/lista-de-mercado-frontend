@@ -1,0 +1,33 @@
+input, select, button{
+  height: 50px;
+}
+
+input, button, select, textarea{
+  border-radius: 10px;
+}
+
+#div-btn-actions{
+  margin-top: 0px;
+}
+
+.btn-grande{
+  width: 200px;
+}
+
+.btn-pequeno{
+  width: 55px;
+}
+
+.bg-color-marron{
+  background-color: #8c7069;
+  border-color: #8c7069;
+  color: white;
+}
+
+.bg-color-cinza{
+  background-color: #a1aca8;
+  border-color: #a1aca8;
+  color: white;
+}
+
+

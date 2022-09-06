@@ -14,7 +14,7 @@ export class CardProdutoComponent implements OnInit {
   }
 
   abrirProduto(){
-    this.router.navigate(['/produto'])
+    this.router.navigate(['/itemcompra'])
   }
 
 }

@@ -24,13 +24,26 @@ input, button, select, textarea{
   color: #8c7069;
 }
 
-.fs-20{
-  font-size: 20px;
+.fs-14-bolder{
+  font-size: 14pt;
   font-weight: bolder;
 }
 
-.fs-18{
-  font-size: 18px;
+.fs-14{
+  font-size: 14pt;
 }
+
+.fs-12-bolder{
+  font-size: 12pt;
+  font-weight: bolder;
+}
+
+.fs-10{
+ font-size: 10pt;
+}
+
+
+
+
 
 
